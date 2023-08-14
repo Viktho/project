@@ -3,7 +3,7 @@ print("CREATED BY: WHITEWOLFE")
 print("DATE: 12/08/2023")
 print('\n')
 
-#first stage is to pick two large primes, p and q
+#first stage is to pick two primes, p and q
 
 
 ## print("what is your P value:")
