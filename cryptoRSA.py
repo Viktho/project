@@ -75,10 +75,10 @@ print("This is your private exponent:", d)
 print('\n')
 
 # if your flag is encrypted, you should uncomment this final stage. if it is not encrypted don't uncomment it
-print("FINAL STAGE")
-print("Input the encrypted flag:")
-encrypted_flag = int(input())
-print('\n')
-from Crypto.Util.number import long_to_bytes
-flag = long_to_bytes(pow(encrypted_flag,d,n)).decode()
-print(flag)
+#print("FINAL STAGE")
+#print("Input the encrypted flag:")
+#encrypted_flag = int(input())
+#print('\n')
+#from Crypto.Util.number import long_to_bytes
+#flag = long_to_bytes(pow(encrypted_flag,d,n)).decode()
+#print(flag)
